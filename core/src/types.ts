@@ -14,3 +14,11 @@ export interface ApiResponse<T> {
   success: boolean;
   data: T;
 }
+
+export interface SRequest extends Document {
+  clientId: string;
+  technicianId: string;
+  description: string;
+  date: Date;
+  status: "pending" | "accepted" | "completed" | "cancelled";
+}
