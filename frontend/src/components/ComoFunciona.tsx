@@ -1,7 +1,7 @@
 
 import "./ComoFunciona.css";
 
-const comoFunciona = () => {
+const ComoFunciona = () => {
   return (
     <>
        

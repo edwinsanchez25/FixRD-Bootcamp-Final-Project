@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesSection from "./components/ServicesSection";
 import TopTechniciansSection from "./components/TopTechniciansSection";
+import ComoFunciona from "./components/ComoFunciona";
 
 
 function App() {
@@ -14,7 +15,10 @@ function App() {
         <ServicesSection />
         <TopTechniciansSection />
       </main>
+      
+      <ComoFunciona />
     </BrowserRouter>
+    
 
   );
 }
