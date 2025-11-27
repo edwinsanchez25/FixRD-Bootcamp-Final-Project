@@ -1,0 +1,32 @@
+.hero {
+  background: linear-gradient(135deg, var(--azul-oscuro), var(--verde-claro));
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: var(--verde-medio);
+  color: var(--azul-oscuro);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--verde-claro);
+  transform: scale(1.05);
+}
