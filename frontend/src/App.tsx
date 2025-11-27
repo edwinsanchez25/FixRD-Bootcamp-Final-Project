@@ -4,22 +4,20 @@ import ServicesSection from "./components/ServicesSection";
 import TopTechniciansSection from "./components/TopTechniciansSection";
 import ComoFunciona from "./components/ComoFunciona";
 
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-            <main className="home-main">
+
+      <main className="home-main">
         <ServicesSection />
         <TopTechniciansSection />
       </main>
-      
+
       <ComoFunciona />
     </BrowserRouter>
-    
-
   );
 }
 
