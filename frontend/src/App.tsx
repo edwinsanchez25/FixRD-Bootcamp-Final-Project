@@ -7,20 +7,18 @@ import UneteTecnico from "./components/UneteTecnico";
 import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
 import TecnicoTarjeta from "./pages/catalogo";
+import AcercaDe from "./components/acercade";
 
 function App() {
   return (
-
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/catalogo" element={<TecnicoTarjeta/>}/>
+        <Route path="/catalogo" element={<TecnicoTarjeta />} />
       </Routes>
 
-
-    
       <Footer />
-   </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
